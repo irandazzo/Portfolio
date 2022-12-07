@@ -19,16 +19,16 @@
     <header class="header">
         <section class="container-fluid">
             <div class="logo">
-                <p>LOGO</p>
-            
+                <p><i class="fa-solid fa-code"></i> Ignacio Randazzo</p>
+
             </div>
             <div class="menuNavegacion">
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Quienes Somos</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,9 +40,130 @@
             <article>Prueba</article>
             <article>Prueba</article>
         </section>
+        <section class="container-fluid">
+            <div id="servicios" class="container servicios">
+                <div class="row">
+                    <div class="col drop">
+                        <div class="content">
+                            <h2><i class="fa-solid fa-laptop"></i></h2>
+                            <h3>Diseño Web</h3>
+                            <a href="#">Saber más</a>
+                        </div>
+                    </div>
+                    <div class="col drop">
+                        <div class="content">
+                            <h2><i class="fa-brands fa-buysellads"></i></h2>
+                            <h3>Publicidad</h3>
+                            <a href="#">Saber más</a>
+                        </div>
+                    </div>
+                    <div class="col drop">
+                        <div class="content">
+                            <h2><i class="fa-solid fa-shop"></i></h2>
+                            <h3>Tienda Online</h3>
+                            <a href="#">Saber más</a>
+                        </div>
+                    </div>
+                    <div class="col drop">
+                        <div class="content">
+                            <h2><i class="fa-sharp fa-solid fa-pen"></i></h2>
+                            <h3>Diseño Gráfico</h3>
+                            <a href="#">Saber más</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#FF5B29" fill-opacity="1"
+                d="M0,128L60,149.3C120,171,240,213,360,208C480,203,600,149,720,122.7C840,96,960,96,1080,85.3C1200,75,1320,53,1380,42.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+        <div class="container container-contact">
+        <div class="row">
+            <div class="col container-title">
+            <h3>¿Necesitas expandir tu negocio, mejorar tu imagen y llegar a más clientes?</h3>
+        </div>
+        <div class="col container-whatsapp">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i>Contáctanos ya!</a></div>
+        </div>
+    </div>
+
+        <section>
+            <div id="nosotros" class="nosotros">
+                <h2>Nosotros</h2>
+                <p>
+                    El objetivo de Point Web es brindar soluciones a aquellas personas, emprendimientos, pymes y
+                    empresas que llegan a nosotros. Lo que queremos para nuestros clientes es que ellos puedan crecer y
+                    beneficiarse de cada uno de nuestros servicios, ya sea insertando su marca en Internet, rediseñando
+                    su imagen digital o solucionando sus problemas con trabajos no concretados satisfactoriamente. Es
+                    importante para nosotros que cada uno de nuestros clientes cumpla con el objetivo por el cual nos
+                    contrata, ya sea Diseño Web, Marketing Digital, Identidad y Diseño Gráfico. Sabemos que cada uno de
+                    nuestros servicios son importantes y por eso contamos con profesionales ágiles y eficaces para
+                    llegar con éxito a los objetivos que nos plantea cada cliente. Bienvenidos al mundo del Diseño Web
+                    Profesional, Diseño Gráfico y Marketing digital. Bienvenidos a Point Web.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div id="contacto" class="formContacto">
+                <div class="formulario">
+                    <h2>Contacto</h2>
+                    <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+                    <form method="post">
+                        <p>
+                            <label for="nombre" class="colocarNombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder="Escribe tu nombre">
+                        </p>
+                        <p>
+                            <label for="email" class="colocarMail">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                placeholder="Escribe tu Email">
+                        </p>
+                        <p>
+                            <label for="telefone" class="colocarTel">Teléfono
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>
+                        <p>
+                            <label for="website" class="colocarWeb">Sitio web
+                            </label>
+                            <input type="url" name="introducir_website" id="website"
+                                placeholder="Escribe la URL de tu web">
+                        </p>
+                        <p>
+                            <label for="asunto" class="colocarAsunto">Asunto
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                                placeholder="Escribe un asunto">
+                        </p>
+                        <p>
+                            <label for="mensaje" class="colocarMsj">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                        </p>
+                        <button type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
-
+    <!-- Footer -->
     <footer class="footer">
         <section class="container">
             <div class="row">
@@ -93,14 +214,15 @@
                     <div class="seccionesFooter">
                         <ul class="menuFooter socialMedia">
                             <li><a href="www.facebook.com"><i class="fa-brands fa-facebook redesSociales"></i></a></li>
-                            <li><a href="www.instagram.com"><i class="fa-brands fa-instagram redesSociales"></i></a></li>
+                            <li><a href="www.instagram.com"><i class="fa-brands fa-instagram redesSociales"></i></a>
+                            </li>
                             <li><a href="www.whatsapp.com"><i class="fa-brands fa-whatsapp redesSociales"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                
+
                 <div>
-                    <form class="form">
+                    <form class="formNewsletter">
                         <label for="email">Suscribete al Newsletter</label>
                         <input type="email" type="email" name="email" placeholder="Ingresa tu email">
                         <button type="submit" class="btn-enviar">Suscribir</button>

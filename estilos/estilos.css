@@ -40,7 +40,7 @@ ul{
     color: #FF5B29;
 }
 .main{
-    background-color: thistle;
+  /*   background-color: thistle; */
 }
 
 
@@ -83,26 +83,26 @@ ul{
     margin-bottom: 20px;
 }
 /* Form NewsLetter */
-.form{
+.formNewsletter{
     display: flex;
     justify-content: center;
     font-size: 20px;
     margin: 15px;
 }
-label, input{
+.formNewsletter label, input{
     padding: 2px;
-    margin: 3px;
 }
-label{
+.formNewsletter label{
     color: #FF5B29;
 }
-input{
+.formNewsletter input{
     border-radius: 5px;
-    border-color:#FF5B29;
+    border-color: #FF5B29;
 }
 .btn-enviar{
     border-radius: 10px;
     padding: 8px;
+    margin: 5px;
     background-color: #fff;
     border-color: #fff;
     color: #FF5B29;
@@ -119,4 +119,304 @@ input{
 .redesSociales{
     padding: 10px;
     font-size: 40px;
+}
+
+/* Formulario de Contacto */
+.formContacto{	
+	width: 460px; 
+    height: auto;
+    margin: 20px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #3c3c3c; 
+    padding-left: 30px; 
+    
+}
+.formulario h2 {
+    font-size: 39px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #FF5B29;
+}
+.formulario h3{
+    font-size: 16px; 
+	padding-bottom: 30px;
+	color: #fff;  
+}
+.formulario p{
+    font-size: 14px; 
+	color: #FF5B29; 
+}
+.formulario input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 35px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color:#FF5B29; 
+	margin-top: 5px;  
+	padding-left: 10px;
+    margin-bottom: 10px; 
+}
+.formulario textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 100px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #FF5B29; 
+	margin-top: 5px;  
+	padding-left: 5px;
+    margin-bottom: 10px; 
+    padding-top: 10px; 
+}
+.formulario label{
+    display: block;
+    float: center;
+}
+.formulario button{
+    height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 10px; 
+	margin-top: 5px; 	
+	text-transform: uppercase;
+	background-color: #FF5B29; 
+	border-color: #FF5B29; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+}
+.formulario button p{
+    color: #fff;
+}
+span{
+	color: #FF5B29; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #FF5B29;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #FF5B29;
+}
+/* Container Contact */
+
+.container-contact{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-whatsapp a{
+    text-decoration: none;
+    background-color: #FF5B29;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.container-whatsapp i{
+    padding: 5px;
+}
+.container-title{
+    display: flex;
+    color: #FF5B29;
+}
+
+
+/* Nosotros */
+.nosotros{
+    background-color: #3c3c3c;
+}
+.nosotros h2{
+    color: #FF5B29;
+    text-align: center;
+    padding: 20px;
+    font-size: 39px;
+}
+.nosotros p{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    color: #FF5B29;
+    padding-bottom: 30px;
+}
+/* Servicios */
+
+/* Cards */
+
+.container .servicios {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #eff0f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 25px;
+}
+.drop {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s ease-in-out;
+}
+.drop:nth-child(1) {
+    border-radius: 49% 51% 70% 30% / 30% 30% 70% 70%;
+}
+
+.drop:nth-child(2) {
+    border-radius: 49% 51% 41% 59% / 52% 30% 70% 48%;
+}
+
+.drop:nth-child(3) {
+    border-radius: 76% 24% 40% 60% / 40% 69% 31% 60%;
+}
+.drop:nth-child(4) {
+    border-radius: 76% 24% 40% 60% / 40% 69% 31% 60%;
+}
+
+.drop:hover {
+    border-radius: 50%;
+}
+
+.drop::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 85px;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.drop::after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.drop .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding-inline: 50px;
+}
+
+.drop .content h2 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #eff0f4;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -2px -5px 10px rgba(255, 255, 255, 1),
+    15px 15px 10px rgba(0, 0, 0, 0.05),
+    15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #FF5B29;
+}
+.drop .content h3{
+    color:#a8a8a8;
+    font-size: 25px;
+}
+
+.drop .content a {
+    position: relative;
+    padding: 10px 25px;
+    background-color: #FF5B29;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.drop .content a:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.drop .content a::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.drop .content a:hover::before {
+    transform: translateX(-50%) translateY(28px);
+    width: 65%;
+}
+.servicios{
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+/* RD para celular */
+
+@media screen and (max-width: 480px){
+    .col{
+        flex-direction:column;
+    }
 }
